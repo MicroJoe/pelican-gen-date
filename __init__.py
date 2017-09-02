@@ -14,7 +14,7 @@ class GenDate:
 
     def defer_process(self):
         """Check and return git describe value."""
-        return datetime.datetime.now()
+        return str(datetime.datetime.now())
 
 
 def initialize(gen):
